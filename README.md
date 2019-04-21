@@ -1,6 +1,6 @@
-# example-vue-app
+# personal-website
 
-> A Vue.js project
+> A repository for my personal website.
 
 ## Build Setup
 
