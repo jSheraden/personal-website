@@ -38,4 +38,11 @@ body {
   font-size: 200%;
   padding: 200px 0;
 }
+
+@media screen and (max-width: 1000px) {
+  .content {
+    font-size: 150%;
+    padding: 100px 0;
+  }
+}
 </style>
