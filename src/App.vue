@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <SiteHeader/>
-    <About/>
-    <Portfolio/>
-    <Contact/>
+    <router-view/>
     <SiteFooter/>
   </div>
 </template>
@@ -17,7 +15,13 @@ import SiteFooter from '@/components/SiteFooter'
 
 export default {
   name: 'App',
-  components: { SiteHeader, About, Portfolio, Contact, SiteFooter }
+  components: {
+    SiteHeader,
+    About,
+    Portfolio,
+    Contact,
+    SiteFooter
+  }
 }
 </script>
 
@@ -36,7 +40,11 @@ body {
 
 .content {
   font-size: 200%;
-  padding: 200px 0;
+  padding: 150px 0;
+}
+
+.content h1 {
+  margin-top: 0;
 }
 
 @media screen and (max-width: 1000px) {

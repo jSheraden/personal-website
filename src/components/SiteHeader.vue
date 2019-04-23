@@ -1,8 +1,8 @@
 <template>
   <div class="site-header">
-    <div class="content">
-      <p><h1>Hello there!</h1>
-      <p>Welcome to my site!</p>
+    <div class="header-content">
+      <h1>Joseph Sheraden</h1>
+      <SiteNav/>
     </div>
   </div>
 </template>
@@ -15,4 +15,22 @@
   color: #ffffff;
   background-color: #336699;
 }
+
+.header-content {
+  font-size: 150%;
+  padding: 50px 0;
+}
+
+.header-content h1 {
+  margin-top: 0;
+}
 </style>
+
+<script>
+import SiteNav from '@/components/SiteNav'
+
+export default {
+  name: 'SiteHeader',
+  components: { SiteNav }
+}
+</script>

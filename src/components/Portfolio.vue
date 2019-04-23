@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio">
     <div class="content">
-      <p><h1>My Portfolio</h1>
+      <h1>My Portfolio</h1>
       <p>Here are some projects I have been working on lately:</p>
       <div class="project-container">
         <div class="project"></div>
@@ -15,6 +15,12 @@
 <style>
 .portfolio {
   background-color: #daf7dc;
+  background: url('../assets/mustard_field.jpg') no-repeat fixed center;
+}
+
+.portfolio h1,
+.portfolio p {
+  color: #ffffff;
 }
 
 .project-container {
