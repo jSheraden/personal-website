@@ -9,6 +9,7 @@
 <style>
 .site-nav a {
   padding: 0 20px;
+  color: #9ee493;
   text-decoration: none;
 }
 
