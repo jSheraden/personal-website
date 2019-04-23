@@ -15,12 +15,11 @@
 <style>
 .portfolio {
   background-color: #daf7dc;
-  background: url('../assets/mustard_field.jpg') no-repeat fixed center;
+  background: url('../assets/retina_wood.png') repeat fixed;
 }
 
 .portfolio h1,
 .portfolio p {
-  color: #ffffff;
 }
 
 .project-container {
